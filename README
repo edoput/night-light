@@ -1,0 +1,20 @@
+night-light
+===========
+
+A plugin for MPV to start and stop the night light feature of Gnome.
+
+To work this plugin requires access to the user DBUS.
+
+DBUS implementation from libsystemd.
+
+```
+# build
+make
+
+# install the binary in the mpv scripts directory
+make install
+
+# link to the binary in the current directory
+# on recompilation changes will be picked up
+make develop
+```
